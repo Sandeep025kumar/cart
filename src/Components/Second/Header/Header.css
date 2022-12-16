@@ -1,0 +1,29 @@
+ .header{
+   position: sticky;
+   top: 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+   background-color: #E3E6F3;
+ }
+ .logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 40px;
+ }
+ .header-links{
+    display: flex;
+ } 
+ .header-links ul li{
+    list-style-type: none;
+    font-size: 1rem; 
+ }
+ .header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 15px;
+ }
+ .header-links ul li a:hover{
+    color: rgb(41, 133, 41);
+ }
